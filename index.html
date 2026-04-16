@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Estudo jQuery</title>
-
-    <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Iniciando com jQuery</title>
+  <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
 
-    <h2>Teste de Eventos</h2>
+  <!-- Container -->
+  <div id="container" style="border:1px solid #ccc; width:500px; height:500px;">
+  </div><!--container-->
 
-    <input type="text" name="nome_pessoa" placeholder="Digite seu nome">
-    <input type="text" placeholder="Outro input">
+  <!-- Source -->
+  <div id="source">
+    <div class="texto">
+      Olá mundo!
+    </div><!--texto-->
+  </div><!--source-->
 
-    <script src="./js/func.js"></script>
+  <!-- Scripts -->
+  <script src="js/jquery.js"></script>
+  <script src="js/functions.js"></script>
 
 </body>
 </html>
